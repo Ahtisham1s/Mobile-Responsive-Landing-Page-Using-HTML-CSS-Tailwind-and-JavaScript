@@ -3,191 +3,174 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <title>Artics - Landing Page</title>
+    <title>Artica</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header">
-      <nav>
-        <div class="logo">
-          <img src="/assets/logo.png" alt="Logo" />
-        </div>
-        <div>
-          <ul>
-            <li><a href="#" class="option-active">Home</a></li>
-            <li><a href="#">How It Works</a></li>
-            <li><a href="#">Detailed Walkthrough</a></li>
-            <li><a href="#">Instruction</a></li>
-            <li><a href="#">Contact us</a></li>
-            <li>
-              <button>
-                <img src="/assets/Wallet.png" alt="Wallet" />
-                <span>Sign Up</span>
+    <section class="header-hero">
+      <div class="max-width" id="section1-bg">
+        <div class="max-width-1140">
+          <div class="header-inner">
+            <a href="#"><img src="/assets/Logo.png" alt="Logo" /></a>
+            <div class="links-btn">
+              <ul class="ul-links">
+                <a href=""><li>Home</li></a>
+                <a href=""><li>How It Works</li></a>
+                <a href=""><li>Detailed Walkthrough</li></a>
+                <a href=""><li>Instruction</li></a>
+                <a href=""><li>Contact us</li></a>
+              </ul>
+              <button type="button" href="#">
+                <img src="/assets/btn-icon-2.png" alt="" />Sign Up
               </button>
-            </li>
-          </ul>
-        </div>
-        <i class="fa-solid fa-bars" id="ham-bars"></i>
-      </nav>
-    </header>
-
-    <section class="hero-section">
-      <div class="hero-section-inner">
-        <div class="hero-section-left">
-          <h1>A secure & private Bitcoin cold storage <span>solution</span></h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis
-          </p>
-          <div class="hero-section-buttons">
-            <button>
-              <img src="/assets/rocket.png" alt="" />
-              <span>Explore</span>
-            </button>
-
-            <button>
-              <img src="/assets/Wallet.png" alt="" />
-              <span>Sign Up</span>
-            </button>
+            </div>
           </div>
         </div>
 
-        <div class="main-banner-image-container">
-          <img src="/assets/banner.png" alt="" />
+        <!-- max width 1140 header end -->
+
+        <div class="hero-section">
+          <div class="max-width-1140">
+            <div class="hero-left-content">
+              <h1 class="hero-heading">
+                A secure & private Bitcoin cold storage <span>solution</span>
+              </h1>
+              <p class="hero-para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                <br />
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                <br />
+                enim ad minim veniam, quis
+              </p>
+              <div class="hero-btn">
+                <button class="hero-btn1">
+                  <img src="/assets/btn-icon.png" alt="" />Explore
+                </button>
+                <button class="hero-btn2">
+                  <img src="/assets/btn-icon-2.png" alt="" />Sign Up
+                </button>
+              </div>
+            </div>
+            <!-- hero left content end -->
+            <div class="right-image">
+              <img src="/assets/heroimage.png" alt="hero-image" />
+            </div>
+          </div>
+          <!-- hero max-width 1140 end -->
         </div>
+        <!-- hero section end -->
       </div>
+      <!-- max-width end -->
     </section>
+    <!--Section End (header hero end) -->
 
-    <!-- <section class="services-section">
-      <div class="services-section-inner">
-        <h1>Need help?</h1>
-        <p>
-          Get Rid of everything: (24/7 support, blog, links to phone, mail,
-          address, additional page links under about support FAQ's etc)
-        </p>
-        <div class="services-posts">
-          <div class="services-post">
-            <img src="/assets/slack.png" alt="slack">
-            <button>Read More</button>
+    <section class="How-it-works">
+      <div class="max-width">
+        <div class="max-width-1140 works-section-inner" >
+          <h1 class="works-heading">How It Works</h1>
+          <div class="works-cards">
+            <div class="card1">
+              <img src="/assets/section how it works/Icon 1.png" alt="icon1" />
+              <h2>Airgapped</h2>
+              <h5>
+                Private keys are never on any device with a channel to the
+                Internet except through QR codes. This is the best and most
+                secure airgap.
+              </h5>
+              <a href="#"
+                >Read More<img
+                  src="/assets/section how it works/Vector 9.png"
+                  alt="arrow"
+              /></a>
+            </div>
+            <div class="card2">
+              <img src="/assets/section how it works/Icon 2.png" alt="icon2" />
+              <h2>Decaying, Encrypted Multisig</h2>
+              <h5>
+                Arctica uses an encrypted 5 of 7 decaying multisig for bitcoin
+                storage. Our protocol allows up to 3 keys to be stolen by an
+                Adversary before any...
+              </h5>
+              <a href="#"
+                >Read More<img
+                  src="/assets/section how it works/Vector 9.png"
+                  alt="arrow"
+              /></a>
+            </div>
+            <div class="card3">
+              <img src="/assets/section how it works/Icon 3.png" alt="icon3" />
+              <h2>Tripwire</h2>
+              <h5>
+                All 7 signing keys in the multisig have their own single
+                signature account of bitcoin stored on them (of ~$1,000), so
+                that any Adversary who finds one part of the multisignature fund
+                is...
+              </h5>
+              <a href="#"
+                >Read More<img
+                  src="/assets/section how it works/Vector 9.png"
+                  alt="arrow"
+              /></a>
+            </div>
           </div>
-          <div class="services-post">
-            <img src="/assets/email.png" alt="slack">
-            <button>Read More</button>
-          </div>
-          <div class="services-post">
-            <img src="/assets/faq.png" alt="slack">
-            <button>Read More</button>
-          </div>
+          <!-- cards end -->
+          <button type="button" class="how-it-works-btn">Learn More</button>
         </div>
+        <!-- max-width 1140 END  -->
       </div>
-    </section> -->
+      <!-- max-width end -->
+    </section>
+    <!-- How it Works End -->
 
-    <!-- <footer class="footer">
-
-      <div class="footer-inner">
-        <div class="footer-1 footer-section">
-          <img src="/assets/footer-logo.png" alt="" class="footer-inner-logo">
-          <p>Arctica is a Free & Open Source script that installs Bitcoin Core and then walks users through the setup of a secure & private cold storage wallet</p>
-
-          <div class="footer-adrees-icons">
-
-            <div class="footer-adrees-icon">
-              <div class="footer-circle">
-                <img src="/assets/Phone.png" alt="">
+    <section class="wallet">
+      <div class="max-width">
+        <div class="max-width-1140">
+          <div class="wallet-inner-content">
+            <div class="wallet-head">
+              <h2>Your trusted Bitcoin Wallet</h2>
+              <h5>Arctica is a Free & Open Source script that install Bitcoin Core and then walks users through the setup of a secure & private cold storage wallet. Arctica is a Free & Open Source script for secure bitcoin storage</h5>
+            </div>
+            <!-- wallet head end -->
+            <div class="wallet-left-right">
+              <div class="wallet-icons-content">
+                <div class="assets-fund">
+                  <div class="img"><img src="/assets/bitcoin-Walet/Icon1.png" alt="bit-coin-icon"></div>
+                  <div class="content">
+                    <h3>Secure Asset Fund for Users</h3>
+                    <p>The only protocol that allows you to use the reference implementation to create a multisignature wallet, with an easily accessible GUI and minimal additional software. No hardware wallets, real airgaps, and protection from supply chain attacks and advanced BIOS attacks.</p>
+                  </div>
+                </div>
+                <!-- assets fund end -->
+                <div class="access-control" id="access-control-margin">
+                  <div class="img"><img src="/assets/bitcoin-Walet/icon2.png" alt="bit-coin-icon"></div>
+                  <div class="content">
+                    <h3>Secure Asset Fund for Users</h3>
+                    <p>The only protocol that allows you to use the reference implementation to create a multisignature wallet, with an easily accessible GUI and minimal additional software. No hardware wallets, real airgaps, and protection from supply chain attacks and advanced BIOS attacks.</p>
+                  </div>
+                </div>
+                <!-- access control end -->
+                <div class="data-encrypt">
+                  <div class="img"><img src="/assets/bitcoin-Walet/Icon3.png" alt="bit-coin-icon"></div>
+                  <div class="content">
+                    <h3>Secure Asset Fund for Users</h3>
+                    <p>The only protocol that allows you to use the reference implementation to create a multisignature wallet, with an easily accessible GUI and minimal additional software. No hardware wallets, real airgaps, and protection from supply chain attacks and advanced BIOS attacks.</p>
+                  </div>
+                </div>
+                <!-- data encrypt end -->
               </div>
-              <div class="footer-address-icon-inner">
-                <span>Phone</span>
-                <span>+92 333 6527366</span>
+              <!-- wallet icons content -->
+              <div class="wallet-right-img">
+                <img src="/assets/bitcoin-Walet/wallet-right-image.png" alt="Wallet-main-image">
               </div>
             </div>
-            <div class="footer-adrees-icon">
-              <div class="footer-circle">
-                <img src="/assets/EnvelopeSimple.png" alt="">
-              </div>
-              <div class="footer-address-icon-inner">
-                <span>Mail</span>
-                <span>artica@gmail.com</span>
-              </div>
-            </div>
-            <div class="footer-adrees-icon">
-              <div class="footer-circle">
-                <img src="/assets/MapPin.png" alt="">
-              </div>
-              <div class="footer-address-icon-inner">
-                <span>Address</span>
-                <span>lorem, ipsum, xyz</span>
-              </div>
-            </div>
-
+            <!-- wallet left right end -->
           </div>
+          <!-- wallet-inner-content end  -->
         </div>
-
-        <div class="footer-2 footer-section">
-          <div class="footer-2-inner">
-            <h3>About</h3>
-            <ul>
-              <li>About us</li>
-              <li>Blog</li>
-              <li>Careers</li>
-              <li>Jobs</li>
-              <li>In Press</li>
-              <li>Gallery</li>
-            </ul>
-          </div>
-
-          <div class="footer-social-icons">
-            <div class="footer-circle">
-              <img src="/assets/FacebookLogo.png" alt="">
-            </div>
-            <div class="footer-circle">
-              <img src="/assets/LinkedinLogo.png" alt="">
-            </div>
-            <div class="footer-circle">
-              <img src="/assets/DribbbleLogo.png" alt="">
-            </div>
-          </div>
-        </div>
-        <div class="footer-2 footer-section">
-          <div class="footer-2-inner">
-            <h3>About</h3>
-            <ul>
-              <li>About us</li>
-              <li>Blog</li>
-              <li>Careers</li>
-              <li>Jobs</li>
-              <li>In Press</li>
-              <li>Gallery</li>
-            </ul>
-          </div>
-
-          
-        </div>
-        <div class="footer-2 footer-section">
-          <div class="footer-2-inner">
-            <h3>About</h3>
-            <ul>
-              <li>About us</li>
-              <li>Blog</li>
-              <li>Careers</li>
-              <li>Jobs</li>
-              <li>In Press</li>
-              <li>Gallery</li>
-            </ul>
-          </div>
-        </div>
-
-
-        <p class="copyright-para">Javed Iqbal © 2022, All Rights Reserved</p>
-    </footer> -->
-
-
+        <!-- max-width-1140 end -->
+      </div>
+      <!-- max-width end-->
+    </section>
+    <!-- Wallet Section end -->
   </body>
 </html>
