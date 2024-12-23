@@ -8,11 +8,9 @@
   box-sizing: border-box;
   font-family: "Urbanist", sans-serif;
 }
-
 .header-hero {
   width: 100%;
 }
-
 .max-width {
   width: 1440px;
   margin: 0 auto;
@@ -72,7 +70,6 @@
 .hero-left-content .hero-heading span {
   color: #1587ed;
 }
-
 .hero-left-content .hero-para {
   font-size: 20px;
   font-weight: 400;
@@ -81,7 +78,6 @@
   /* max-width: 570px; */
   margin-bottom: 40px;
 }
-
 .hero-btn {
   display: flex;
   align-items: center;
@@ -128,9 +124,7 @@
   background: #ffffff;
   box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.15);
 }
-
 /* How it Works Section CSS  */
-
 .How-it-works {
   background: rgba(21, 135, 237, 0.03);
   padding: 45px 0px 50px 0px;
@@ -156,7 +150,6 @@
   align-items: center;
   justify-content: center;
   gap:90px;
- 
 }
 .card1,
 .card2,
@@ -174,7 +167,6 @@
   gap: 10px;
   box-shadow: 0px 20px 95px 0px rgba(201, 203, 204, 0.3);
   position: relative;
-
 }
 .card1 h5,
 .card2 h5,
@@ -199,7 +191,6 @@
   margin-top: 14px;
   color: rgba(0, 0, 0, 0.5);
 }
-
 .card1 a,
 .card2 a,
 .card3 a {
@@ -213,8 +204,6 @@
   position:absolute;
   bottom: 30px;
 }
-
-
 .works-cards button{
   text-align: center;
 }
