@@ -325,3 +325,90 @@
   display: none;
 }
 
+
+@media (max-width: 1100px) {
+  .main-banner-image-container img {
+    max-width: 400px;
+  }
+
+  .hero-section-left h1 {
+    font-size: 38px;
+    line-height: 50px;
+    max-width: 500px;
+  }
+  .hero-section-left p {
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 500px;
+  }
+  .hero-section-buttons button:first-child {
+    padding: 7px 20px;
+  }
+  .hero-section-buttons button:first-child img {
+    width: 25px;
+  }
+  .hero-section-buttons button:first-child span {
+    font-size: 16px;
+  }
+  .hero-section-buttons button:last-child {
+    padding: 7px 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .header nav ul {
+    display: none;
+  }
+  #ham-bars {
+    display: block;
+  }
+  .hero-section-inner {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .hero-section-left h1,
+  .hero-section-left p {
+    text-align: center;
+  }
+  .hero-section-buttons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-banner-image-container img {
+    max-width: 300px;
+  }
+
+  .hero-section-left h1 {
+    font-size: 27px;
+    line-height: 35px;
+    max-width: auto;
+  }
+  .hero-section-left p {
+    font-size: 13px;
+    line-height: 1.4;
+    max-width: auto;
+  }
+  .hero-section-buttons button:first-child {
+    padding: 5px 17px;
+  }
+  .hero-section-buttons button:first-child img {
+    width: 20px;
+  }
+  .hero-section-buttons button:first-child span {
+    font-size: 14px;
+  }
+  .hero-section-buttons button:last-child {
+    padding: 5px 17px;
+  }
+  .header nav ul li button img,
+  .hero-section-buttons button:last-child img {
+    width: 16px;
+  }
+  .header nav ul li button span,
+  .hero-section-buttons button:last-child span {
+    font-size: 14px;
+  }
+}
+
